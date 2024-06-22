@@ -1,5 +1,5 @@
-monthly_income = int(input('monthly income'))
-monthly_expenses = int(input('monthly expenses'))
+monthly_income = int(input(monthly income))
+monthly_expenses = int(input(monthly expenses))
 monthly_savings = monthly_income - monthly_expenses
 yearly_savings = monthly_savings * 12
 yearly_income = monthly_savings * 12 * 0.05
