@@ -1,5 +1,5 @@
 # prompting the user for weather input
-weather = input("what is the weather like today?(sunny/rainy/cold):")
+weather =input("what's the weather like today?(sunny/rainy/cold):")
 # providing clothing recommendation based on the user input
 if weather == "sunny":
     print("recommendation:wear a t-shirt and sunglass")
