@@ -1,7 +1,5 @@
 num1 = float(input("enter the first number: "))
 num2 = float(input("enter the second number:"))
-
-# prompt the user to choose the operation
 operation = input("choose the operation (+, *, -, /): ")
 result = 0
 match operation:
