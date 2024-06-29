@@ -1,8 +1,9 @@
-num1 = float(input("enter the first number: "))
-num2 = float(input("enter the second number:"))
-operation= input("choose the operation (+, *, -, /): ")
-result = 0
-match operation:
+def main():
+    num1 = float(input("enter the first number: "))
+    num2 = float(input("enter the second number:"))
+    operation= input("choose the operation (+, *, -, /): ")
+    result = 0
+    match operation:
     case '+':
         result = num1 + num2
     case '-':
@@ -21,3 +22,5 @@ match operation:
             pass
         else:
             print(f"the result is {result}")
+        if __name__ == "__main__":
+            main()
