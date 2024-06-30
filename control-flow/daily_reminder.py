@@ -11,8 +11,8 @@ match priority:
     case_:
         print("invalid priority entered.please choose from high,medium, or low")
         exit()
-    if time_bound.lower() == "yes":
+if time_bound.lower() == "yes":
         reminder += "that requires immediate attention today!"
-    else:
+else:
         reminder +="consider completing it when you have free time."
         print ("reminder:", reminder)
