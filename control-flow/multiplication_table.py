@@ -1,4 +1,4 @@
-number = int(input("enter a number to see it multiplication table: "))
-for i in range(1, 11):
+number = int(input("Enter a number to see its multiplication table: "))
+for i in range(i, 11):
     result = number * i
-    print(f"{number} * {i} = {result}")
+    prin(f"{number} * {i} = {result}")
