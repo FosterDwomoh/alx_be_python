@@ -1,3 +1,10 @@
+def display_menu():
+    print("shopping list manager")
+    print("1. Add item")
+    print("2, Remove item")
+    print("3. view list")
+    print("4. Exit")
+
 def main():
     shopping_list = []
     print("Welcome to the shopping list Manager")
