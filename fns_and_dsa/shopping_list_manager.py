@@ -2,11 +2,7 @@ def main():
     shopping_list = []
     print("Welcome to the shopping list Manager")
     while True:
-        print("\nPlease select an option:")
-        print("1. Add item to the list")
-        print("2. Remove item to the list")
-        print("3. view the content list")
-        print("4. Exit")
+        display_menu()
         choice = input("Enter your choice:(1/2/3/4)")
         if choice == "1":
             item = input("Enter the item you want to add:")
