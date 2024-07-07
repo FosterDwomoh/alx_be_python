@@ -5,7 +5,7 @@ def display_menu():
     print("3. view list")
     print("4. Exit")
 
-def main():
+def add_item(shopping_list):
     shopping_list = []
     print("Welcome to the shopping list Manager")
     while True:
