@@ -23,7 +23,7 @@ while True:
                 raise ValueError("Invalid temperature unit: please enter 'F' or 'C' ")
                 break
                 except ValueError:
-                print("Invalid temperature. Please enter a numeric value followed by "F" or "C". ")
+                print("Invalid temperature. Please enter a numeric value. ")
                 except Exception as e:
                 print(f" Error: {e}")
                 if_name_=="_main_":
