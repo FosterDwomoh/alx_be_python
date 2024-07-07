@@ -6,6 +6,8 @@ def display_menu():
     print("4. Exit")
 
 def add_item(shopping_list):
+    item = input("Enter the item to add: ")
+    shopping_list.append(item)
     shopping_list = []
     print("Welcome to the shopping list Manager")
     while True:
