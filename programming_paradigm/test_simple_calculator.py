@@ -7,12 +7,10 @@ class TestSimpleCalculator(unittest.TestCase):
             self.assertEqual(self.calc.add(2, 3), 8)
             def test_subtraction(self):
                 self.assertEqual(self.calc.subtract, test_subtraction(self))
-                def test_multiply(self):
-                    result = self.calculator.multiply(2, 6)
-                    self.assertEqual(result, 12)
-                    def test_divide(self):
-                        result = self.calculator.divide(10, 2)
-                        self.assertEqual(result, 5)
+                def test_multiplication(self):
+                    self.assertEqual(self.calc.multiply)
+                    def test_division(self):
+                        self.assertEqual(self.calc.divide)
                         def test_divide_by_zero(self)
                         with self.assertRaises(ValueError):
                             self.calculator.divide(10, 0)
