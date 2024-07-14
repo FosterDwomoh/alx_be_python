@@ -1,5 +1,5 @@
 # robust_division_calculator
-def saf_divide(numerator, denominator):
+def safe_divide(numerator, denominator):
     if denominator == 0:
         return "Error:Division by Zero is not allowed."
     try:
