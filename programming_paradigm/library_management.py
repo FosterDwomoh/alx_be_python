@@ -1,17 +1,17 @@
 # library_management.py
 from library_management import Book, Library
 def main():
-    library = library()
-    library.add_book(Book('Brave New World', 'Aldous Huxley'))
-    library.add_book(Book('1984',' George Orwell'))
+    Library = library()
+    Library.add_book(Book('Brave New World', 'Aldous Huxley'))
+    Library.add_book(Book('1984',' George Orwell'))
     print('Available books after setup:')
-    library.list_available_books()
-    library.check_out_book('1984')
+    Library.list_available_books()
+    Library.check_out_book('1984')
     print('\nAvailable books after checking out'1984':')
-    library.list_available_books()
-    library.return_book('1984')
+    Library.list_available_books()
+    Library.return_book('1984')
     print('\nAvailable books after returning '1984':')
-    library.list_available_books()
+    Library.list_available_books()
     if __name__ == '__main__':
         main()
 
@@ -31,7 +31,7 @@ class Book:
                 return True
             else:
                 return False
-class library:
+class Library:
     def __init__(self):
         self_books = []
         def add_book(self, book):
