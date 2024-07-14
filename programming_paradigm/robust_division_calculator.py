@@ -1,7 +1,7 @@
 # robust_division_calculator
 def safe_divide(numerator, denominator):
     if denominator == 0:
-        return "Error:Division by Zero is not allowed."
+        return "Error:cannot divide by Zero."
     try:
         num = float(numerator)
         denom = float(denominator)
