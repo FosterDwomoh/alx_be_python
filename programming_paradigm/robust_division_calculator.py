@@ -6,8 +6,8 @@ def safe_divide(numerator, denominator):
         num = float(numerator)
         denom = float(denominator)
         result = num/denom
-        print("Error: The result of the division is {result})
-        except ValueError:
+        print("Error: The result of the division is {result}")
+    except ValueError:
         print("Error: Please enter numeric values only.")
-        except ZeroDivisionError:
+    except ZeroDivisionError:
         print("Division by zero")
