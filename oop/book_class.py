@@ -9,8 +9,9 @@ class Book:
         return f"{self.title} by {self.author}, published in {self.year}"
     def __repr__(self):
         return f"Book('{self.title}', '{self.author}, published in {self.year}"
-    if __name__ == "__main__"
     my_book = Book("1984" "George Orwell", 1949)
     print(str(my_book))
     print(repr(my_book))
+    if __name__ == "__main__":
+        main()
 
